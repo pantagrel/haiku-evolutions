@@ -1,3 +1,15 @@
+[submodule "themes/hello-friend-ng"]
+	path = themes/hello-friend-ng
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
+[submodule "themes/console"]
+	path = themes/console
+	url = https://github.com/mrmierzejewski/hugo-theme-console.git
+[submodule "themes/hello-friend"]
+	path = themes/hello-friend
+	url = https://github.com/panr/hugo-theme-hello-friend.git
+[submodule "themes/mini"]
+	path = themes/mini
+	url = https://github.com/nodejh/hugo-theme-mini.git
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
-	url = https://github.com/adityatelange/hugo-PaperMod.git
+	url = https://github.com/adityatelange/hugo-PaperMod

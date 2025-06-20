@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <link rel="stylesheet" href="/custom.css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <article>
+      <h1>{{ .Title }}</h1>
+
+      <div class="post-body">
+        {{ .Content }}
+      </div>
+
+      {{ with .Params.audio }}
+        <audio controls>
+          <source src="/audio/{{ . }}" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      {{ end }}
+
+      <div class="entry-footer">
+        {{ .Date.Format "January 2, 2006" }}
+      </div>
+    </article>
+  </main>
+</body>
+</html>

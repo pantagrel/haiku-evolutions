@@ -1,0 +1,13 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Desire Lines"
+
+[params]
+  customCSS = ["custom.css"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      attribute = true

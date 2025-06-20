@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Desire Lines</title>
     <link>//localhost:1313/posts/</link>
     <description>Recent content in Posts on Desire Lines</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Clean Burn</title>
-      <link>//localhost:1313/posts/clean-burn/</link>
-      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/clean-burn/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Care, in its clean form, is motion—it opens, it offers, it burns steady.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;🎧 &lt;a href=&#34;https://your-audio-link.com/audiofile.mp3&#34;&gt;Listen here&lt;/a&gt;&lt;/p&gt;</description>
+      <title>One</title>
+      <link>//localhost:1313/posts/two/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/two/</guid>
+      <description>&lt;p&gt;Intimacy and erotic connection are intense, vivid. But can be so much more than sexual.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello River</title>
+      <link>//localhost:1313/posts/one/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/one/</guid>
+      <description>&lt;p&gt;This is the post body. This is a normal sentence.&lt;/p&gt;&#xA;&lt;p class=&#34;meta&#34;&gt;This is some small text.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Audio 3</title>
+      <link>//localhost:1313/posts/three/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/three/</guid>
+      <description>&lt;p&gt;Care, in its clean form, is motion—it opens, it offers, it burns steady.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Site.Title }}</title>
+  <link rel="stylesheet" href="/custom.css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <h1><a href="/about/">{{ .Site.Title }}</a></h1>
+
+          {{ range where .Site.RegularPages "Section" "posts" }}
+          <!-- Post rendering follows -->
+          
+          <article>
+            <h2>{{ .Title }}</h2>
+
+            {{ with .Params.tags }}
+        <div class="tags">
+          {{ range . }}
+            <span class="tag">{{ . }}</span>
+              {{ end }}
+            </div>
+          {{ end }}
+
+
+            {{ with .Params.audio }}
+              <audio controls style="width: 100%; margin-top: 1em;">
+                <source src="/audio/{{ . }}" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            {{ end }}
+
+            {{ with .Params.video }}
+              <video controls style="width: 100%; margin-top: 1em; border-radius: 4px;">
+                <source src="/video/{{ . }}" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            {{ end }}
+            
+            <div class="post-body">
+              {{ .Content }}
+            </div>
+
+             {{ if .Params.readmore }}
+                <p><a href="{{ .RelPermalink }}">Read more</a></p>
+            {{ end }}
+
+        <hr>
+      </article>
+    {{ end }}
+
+  </main>
+
+      <footer class="site-footer">
+      <p class="epigraph">All gods begin as glimpses.</p>
+      </footer>
+
+</body>
+</html>

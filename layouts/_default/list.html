@@ -32,12 +32,17 @@
               </audio>
             {{ end }}
 
-            {{ with .Params.video }}
-              <video controls style="width: 100%; margin-top: 1em; border-radius: 4px;">
-                <source src="/video/{{ . }}" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            {{ end }}
+          {{ if .Params.video }}
+            <div class="video-wrapper">
+              <iframe src="{{ .Params.video }}" frameborder="0" allowfullscreen></iframe>
+            </div>
+          {{ else if .Params.videoURL }}
+            {{ $urlParts := split .Params.videoURL "/" }}
+            {{ $videoID := index $urlParts (sub (len $urlParts) 1) }}
+            <div class="video-wrapper">
+              <iframe src="https://player.vimeo.com/video/{{ $videoID }}" frameborder="0" allowfullscreen></iframe>
+            </div>
+          {{ end }}
             
             <div class="post-body">
               {{ .Content }}

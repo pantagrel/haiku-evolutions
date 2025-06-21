@@ -49,15 +49,20 @@ audio {
   accent-color: #c03a61;
 }
 
-video {
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  max-height: 480px;
-  margin-top: 1.5em;
-  border: none;
-  background-color: #000; /* fallback */
-  accent-color: #ffc2e2;
-  border-radius: 6px;
-  box-shadow: 0 0 8px rgba(255, 194, 226, 0.2);
+  height: 100%;
 }
 
 hr {

@@ -6,21 +6,21 @@
     <description>Recent content on Desire Lines</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Eros Wants</title>
+      <link>//localhost:1313/posts/one/</link>
+      <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/one/</guid>
+      <description>&lt;p&gt;Intimacy and erotic connection are intense, vivid&amp;hellip;and can be so much more than sexual.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>One</title>
       <link>//localhost:1313/posts/two/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/posts/two/</guid>
-      <description>&lt;p&gt;Intimacy and erotic connection are intense, vivid. But can be so much more than sexual.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hello River</title>
-      <link>//localhost:1313/posts/one/</link>
-      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/one/</guid>
-      <description>&lt;p&gt;This is the post body. This is a normal sentence.&lt;/p&gt;&#xA;&lt;p class=&#34;meta&#34;&gt;This is some small text.&lt;/p&gt;</description>
+      <description>&lt;p class=&#34;meta&#34;&gt;This is some small text.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Audio 3</title>
@@ -34,7 +34,7 @@
       <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/about/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m tracking &lt;em&gt;the pull:&lt;/em&gt;&lt;br&gt;&#xA;What is attention, and how does it shape our lives?&lt;br&gt;&#xA;What are our desire lines — the ones we follow and the ones we bury?&lt;/p&gt;&#xA;&lt;p&gt;This project is a way to track the signals of Eros across the layered terrain of a lived experience, and with the spellcasting powers of language, find a way to see and say the barely seen and said: the movement towards aliveness.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m tracking &lt;em&gt;the pull:&lt;/em&gt;&lt;br&gt;&#xA;What is attention, and how does it shape our lives?&lt;br&gt;&#xA;What are our desire lines — the ones we follow and the ones we bury?&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m tracking Eros across the layered terrain of a lived experience. What movement towards aliveness will I find?&lt;/p&gt;&#xA;&lt;p&gt;Where Scintillus was a calendar, Desire Lines is a compass.&lt;br&gt;&#xA;If Scintillus was the act of recording, Desire Lines is the act of responding.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

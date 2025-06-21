@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/tags/audio/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/desire/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/eros/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/one/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/field-notes/</loc>
     <lastmod>2025-06-20T00:00:00+00:00</lastmod>
@@ -14,31 +32,13 @@
     <loc>//localhost:1313/posts/two/</loc>
     <lastmod>2025-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
-    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/tags/video/</loc>
     <lastmod>2025-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/audio/</loc>
-    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/desire/</loc>
-    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/one/</loc>
-    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/three/</loc>
     <lastmod>2025-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/care/</loc>
-    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/eros/</loc>
     <lastmod>2025-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/about/</loc>
